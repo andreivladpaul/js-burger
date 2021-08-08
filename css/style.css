@@ -1,0 +1,109 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  width: 100vw;
+  height: 100vh;
+  min-width: 400px;
+}
+/* ---------------------BACKGROUND COLORS -----------------*/
+.container-fluid {
+  background-color: #fff5e2;
+}
+
+.bg-white {
+  background-color: white;
+}
+.bg-orange {
+  background-color: #fdbb40;
+}
+.bg-red {
+  background-color: #d33359;
+}
+/* ---------------------END BACKGROUND COLORS -----------------*/
+
+/* --------------------- HEADER SETTINGS -----------------*/
+.my-container {
+  position: relative;
+}
+.my-container > img {
+  position: absolute;
+  top: -30px;
+  right: -60px;
+  z-index: 2;
+  overflow-x: hidden;
+}
+/* --------------------- END HEADER SETTINGS -----------------*/
+.w-60 {
+  width: 60%;
+  margin: 0 auto;
+}
+
+/* --------------------- MAIN SETTINGS -----------------*/
+input[type='text'] {
+  border: none;
+  padding: 10px 0;
+  width: 300px;
+}
+input::placeholder {
+  color: grey;
+  font-size: 30px;
+}
+.img-ingredients {
+  width: 60px;
+}
+
+input[type='checkbox'] {
+  background-color: #d33359;
+}
+
+label {
+  font-size: 22px;
+  color: #d33359;
+  font-weight: bold;
+}
+.mb-6 {
+  margin-bottom: 150px;
+}
+/* --------------------- END MAIN SETTINGS -----------------*/
+
+/* --------------------- DISCOUNT SETTINGS -----------------*/
+
+#discount-code {
+  border-radius: 10px;
+  background-color: #fff5e2;
+  height: 30px;
+  width: 70%;
+  padding-left: 10px;
+}
+
+#discount-code::placeholder {
+  font-size: 18px;
+}
+
+.ms-btn {
+  padding: 15px;
+  background-color: orange;
+  color: black;
+  font-size: 26px;
+  width: 150px;
+  height: 70px;
+  border: none;
+  border-radius: 15px;
+}
+/* --------------------- END DISCOUNT SETTINGS -----------------*/
+
+/* --------------------- FOOTER SETTINGS -----------------*/
+.text-white {
+  color: white;
+}
+/* --------------------- FOOTER SETTINGS -----------------*/
+
+@media screen and (min-width: 0px) and (max-width: 500px) {
+  .my-container > img {
+    display: none;
+  }
+}
