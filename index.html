@@ -40,61 +40,61 @@
                             <img class="img-ingredients me-2" src="./img/cheese.svg" alt="">
                             <h4  class=" me-3">Cheese</h4>
                             
-                            <input type="checkbox" id="cheese" name="cheese" value="cheese" class=" me-3">
+                            <input type="checkbox" id="cheese" name="ingredients" value=5 class ="ingredients me-3">
                             <label for="cheese"> add</label>
                             
 
                         </div>
 
-                        <div class=" col-sm-12 col-xs-12 col-md-6 mt-2 mb-3 d-flex align-items-center">
-                            <img class="img-ingredients me-3" src="./img/tomato.svg" alt="">
-                            <h4  class=" me-3">Tomato</h4>
-                            <input type="checkbox" id="tomato" name="tomato" value="tomato" class=" me-3">
+                        <div class =" col-sm-12 col-xs-12 col-md-6 mt-2 mb-3 d-flex align-items-center">
+                            <img class ="img-ingredients me-3" src="./img/tomato.svg" alt="">
+                            <h4  class =" me-3">Tomato</h4>
+                            <input type="checkbox" id="tomato" name="ingredients" value="4" class ="ingredients me-3">
                             <label for="tomato"> add</label>
 
                         </div>
 
-                        <div class=" col-sm-12 col-xs-12 col-md-6 mt-2 mb-3 d-flex align-items-center">
-                            <img class="img-ingredients me-3" src="./img/fried-egg.svg" alt="">
-                            <h4  class=" me-3">Egg</h4>
-                            <input type="checkbox" id="egg" name="egg" value="egg" class=" me-3">
+                        <div class =" col-sm-12 col-xs-12 col-md-6 mt-2 mb-3 d-flex align-items-center">
+                            <img class ="img-ingredients me-3" src="./img/fried-egg.svg" alt="">
+                            <h4  class =" me-3">Egg</h4>
+                            <input type="checkbox" id="egg" name="ingredients" value="3" class ="ingredients me-3">
                             <label for="egg"> add</label>
 
                         </div>
 
-                        <div class=" col-sm-12 col-xs-12 col-md-6 mt-2 mb-3 d-flex align-items-center">
-                            <img class="img-ingredients me-3" src="./img/lettuce.svg" alt="">
-                            <h4  class=" me-3">Lettuce</h4>
-                            <input type="checkbox" id="lettuce" name="lettuce" value="lettuce" class=" me-3">
+                        <div class =" col-sm-12 col-xs-12 col-md-6 mt-2 mb-3 d-flex align-items-center">
+                            <img class ="img-ingredients me-3" src="./img/lettuce.svg" alt="">
+                            <h4  class =" me-3">Lettuce</h4>
+                            <input type="checkbox" id="lettuce" name="ingredients" value="4" class ="ingredients me-3">
                             <label for="lettuce"> add</label>
 
                         </div>
 
-                        <div class=" col-sm-12 col-xs-12 col-md-6 mt-2 d-flex align-items-center">
-                            <img class="img-ingredients me-3" src="./img/mustard.svg" alt="">
-                            <h4  class=" me-3">Mustard</h4>
-                            <input type="checkbox" id="mustard" name="mustard" value="mustard" class=" me-3">
+                        <div class =" col-sm-12 col-xs-12 col-md-6 mt-2 d-flex align-items-center">
+                            <img class ="img-ingredients me-3" src="./img/mustard.svg" alt="">
+                            <h4  class =" me-3">Mustard</h4>
+                            <input type="checkbox" id="mustard" name="ingredients" value="6" class = "ingredients me-3">
                             <label for="mustard"> add</label>
 
                         </div>
-                        <div class=" col-sm-12 col-xs-12 col-md-6 mt-2 d-flex align-items-center">
-                            <img class="img-ingredients me-3" src="./img/ketchup.svg" alt="">
-                            <h4  class=" me-3">Ketchup</h4>
-                            <input type="checkbox" id="ketchup" name="ketchup" value="ketchup" class=" me-3">
+                        <div class =" col-sm-12 col-xs-12 col-md-6 mt-2 d-flex align-items-center">
+                            <img class ="img-ingredients me-3" src="./img/ketchup.svg" alt="">
+                            <h4  class =" me-3">Ketchup</h4>
+                            <input type="checkbox" id="ketchup" name="ingredients" value="2" class ="ingredients me-3">
                             <label for="ketchup"> add</label>
 
                         </div>
 
-                        <div class="row mt-5">
-                            <div class="col p-0 d-flex ">
-                                <h5 class=" me-3">Discount Coupon</h5>
-                                <input type="text" id="discount-code" placeholder="Discount code">
+                        <div class ="row mt-5">
+                            <div class ="col p-0 d-flex ">
+                                <h5 class =" me-3">Discount Coupon</h5>
+                                <input type="text" id="discount-code" placeholder="12354ABCDEF">
                             </div>
                         </div>
             
-                        <div class="row mt-5">
-                            <div class="col-12 text-center">
-                                <button class="ms-btn">calculate</button>
+                        <div class ="row mt-5">
+                            <div class ="col-12 text-center">
+                                <input type="button" id="calculate" class = "ms-btn" value="calculate">
                             </div>
                             
                         </div>
@@ -104,13 +104,14 @@
         </main>
 
         <!---------------------------- FOOTER PRICE ---------------------------------->
-        <footer>
-            <div class="my-container container-sm container-md container-lg w-60 p-4 bg-red text-white d-flex justify-content-between">
-                <h1 class="fw-bold">Your Price</h1>
-                <h1 class="fw-bold" id="dollars">$50</h1>
+        <section>
+            <div class ="my-container container-sm container-md container-lg w-60 p-4 bg-red text-white d-flex justify-content-between position-relative">
+                <h1 class ="fw-bold">Your Price</h1>
+                <h3 id="applied-discount"></h3>
+                <h1 class ="fw-bold" id="price">$50</h1>
 
             </div>
-        </footer>
+        </section>
     </div>
 
     
